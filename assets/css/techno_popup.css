@@ -1,0 +1,135 @@
+
+#popupForm {
+	display:none;
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:9999;
+}
+#popupForm .darkTransBg {
+	background:#000000;
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	opacity: 0.8;
+	filter: alpha(opacity=8); /* For IE8 and earlier */
+}
+#popupForm .formArea {
+	background:#ffffff;
+	padding:20px;
+	border-radius:0;
+	width:280px;
+	margin:0px auto;
+	position:relative;
+	top:30px;
+	z-index:99998;
+}
+#popupForm .formArea #closePopUp {
+	position:absolute;
+	border:solid 1px #ecedee;
+	right:10px;
+	top:10px;
+	float:right;
+	cursor:pointer;
+	z-index:99999;
+	width:20px;
+}
+#popupForm .formArea #closePopUp img {
+	float:right;
+	max-width:100%;
+	height:auto;
+	margin:0px 0px 0 0;
+	border: 0 none;
+    box-shadow: none;
+	border-radius:0;
+}
+
+#popupForm #techno_login_err{ font-size:12px; line-height:1; color:#FF0000; font-weight:bold;}
+#popupForm form.techno_login{ clear:both; display:block;}
+#popupForm form.techno_login:after{ content:""; display:table; clear:both; width:100%;}
+#popupForm form.techno_login .form-group{ clear:both; margin:5px 0 5px 0; float:left; width:100%;}
+#popupForm form.techno_login .form-group label.error{ font-size:12px; color:#FF0000; line-height:1;}
+#popupForm form.techno_login .form-group h1{ font-size:20px; text-transform:uppercase;}
+
+#popupForm .formArea h2 {
+	text-transform: capitalize;
+	font-size:19px;
+	line-height:18px;
+	padding-right:15px;
+	margin:0 0 10px 0;
+}
+#popupForm .formArea p {
+	text-transform:capitalize;
+	font-size:14px;
+	padding-bottom:8px;
+	margin-bottom:0px;
+	margin-top:0px;
+	position: relative;
+}
+#popupForm .formArea input {
+	padding:7px 10px;
+	line-height:1;
+	border-radius:0;
+	width:100%;
+	border:solid 1px #d2d3d4;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+#popupForm .formArea textarea {
+	padding:5px;
+	border-radius:0;
+	width:100%;
+	height:50px;
+	border:solid 1px #d2d3d4;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+
+}
+#popupForm .formArea input.wpcf7-submit {
+	border:solid 1px #51A633;
+	background:#51A633;
+	color:#ffffff;
+	width:278px;
+	cursor:pointer;
+	text-transform:uppercase;
+	font-size:14px;
+	height:38px;
+	line-height:25px;
+}
+
+#popupForm .formArea input.wpcf7-submit:hover {
+	background:#575757;
+	border:solid 1px #575757;
+}
+
+#popupForm .formArea .techno_submit{ border:0; border-radius:0; color:#FFFFFF; background-color:#444444; margin-top:5px; padding:7px 10px; font-size:15px;  line-height: 1; text-align:center; text-transform:uppercase;}
+#popupForm .formArea .techno_submit:hover{ background-image:none; background-color:#000;}
+
+#popupForm .formArea p.conNumber {
+	text-align:center;
+	font-size:15px;
+	overflow:hidden;
+}
+#popupForm .formArea p.conNumber span {
+	font-weight:bold;
+	color:#39F;
+}
+#popupForm .formArea p .refresh-link a{ color:#00537a; text-decoration:underline;}
+
+#popupForm .formArea span.wpcf7-not-valid-tip{ font-size:13px; line-height:15px; }
+#popupForm .formArea div.wpcf7 img.ajax-loader {
+    border: none;
+    vertical-align: middle;
+    margin-left: 4px;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    z-index: 1;
+}
+#popupForm .formArea  div.wpcf7-response-output{ margin-top:0;}
+
+#techno_loadingmessage {/* position: fixed; */top: 50%;width:100%;height:100%;text-align:center;display:none;}
